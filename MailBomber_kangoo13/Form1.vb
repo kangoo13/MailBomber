@@ -165,7 +165,6 @@ Public Class Form1
             MailSent = 0
             AccountList = IO.File.ReadAllLines(Application.StartupPath + "/accounts")
             ProxiesList = IO.File.ReadAllLines(Application.StartupPath + "/proxies")
-            Console.WriteLine(ProxiesList.Length)
             Label1.Text = Str(AccountList.Length) + " accounts loaded"
             Label2.Text = Str(ProxiesList.Length) + " proxies loaded"
             Dim ProxyIndex As Integer = 0
