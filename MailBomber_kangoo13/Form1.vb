@@ -7,7 +7,6 @@ Public Class Form1
     Dim BodyList() As String
     Dim TitleList() As String
     Dim NamesList() As String
-    Dim AccountIndex As Integer
     Dim MailSent As Integer
     Dim SendTo As String
     Dim random As New Random()
@@ -161,7 +160,6 @@ Public Class Form1
             PrepareBody()
             PrepareNames()
             PrepareTitle()
-            AccountIndex = 0
             MailSent = 0
             AccountList = IO.File.ReadAllLines(Application.StartupPath + "/accounts")
             ProxiesList = IO.File.ReadAllLines(Application.StartupPath + "/proxies")
