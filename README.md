@@ -1,7 +1,7 @@
 # MailBomber
 MailBomber using SMTP multiples accounts with multiples proxies, provider handled : mail.ru
 
-Multithreading function
+Multithreading function. This can be fun using on friends or family, I don't take any responsabilities of what you're doing with it.
 
 
 ## How to use
