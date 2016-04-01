@@ -10,4 +10,5 @@ Simply create a "accounts" file with email:password in it separated by new lines
 
 ## To do
 
+Parse errors to show the real error.
 Handle way more providers like gmail etc.
